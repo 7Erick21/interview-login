@@ -1,0 +1,131 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.logo {
+  display: none;
+}
+
+.button {
+  background: linear-gradient(
+    267.96deg,
+    #f82a34 -1.75%,
+    rgba(176, 53, 252, 0.81) 130.81%
+  );
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.text-logo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.69px;
+  text-align: center;
+  color: #dadada;
+}
+
+.text-checkbox {
+  color: #cecece;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+}
+
+.h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.container-check {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #505c79;
+  border-radius: 4px;
+}
+
+.olvide {
+  color: #dadada;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.69px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.olvide:hover {
+  opacity: 0.5;
+}
+
+.register {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.35px;
+  text-align: center;
+  color: #cecece;
+}
+
+.register span {
+  color: #f668ac;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.register span:hover {
+  opacity: 0.5;
+}
+
+.checkboxaaa {
+  appearance: none;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+}
+
+.checkboxaaa:checked {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.checkboxaaa:checked::before {
+  content: '✔';
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aaaaaa {
+  display: none;
+  background-image: url('./assets/image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .aaaaaa {
+    display: block;
+  }
+}

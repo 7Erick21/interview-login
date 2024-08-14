@@ -1,0 +1,35 @@
+.label-input {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.69px;
+  text-align: left;
+  color: #cecece;
+  margin-left: 10px;
+}
+
+.input {
+  width: 100%;
+  position: relative;
+  background-color: #2a2f3c;
+  border: 1px solid #505c79;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #596073;
+  padding: 12px;
+}
+.input:focus {
+  position: relative;
+  background-color: #2a2f3c;
+  border: 1px solid #505c79;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #596073;
+}
